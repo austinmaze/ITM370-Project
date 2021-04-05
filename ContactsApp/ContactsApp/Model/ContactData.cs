@@ -7,5 +7,7 @@ namespace ContactsApp.Model
     class ContactData
     {
         public static IList<object> Contacts;
+
+        
     }
 }
