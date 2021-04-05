@@ -10,7 +10,8 @@
                 FontSize="40"
                 FontAttributes="Bold,Italic"
                  />
-            <ListView>
+            <ListView x:Name="theList"
+                      ItemsSource="{Binding Contacts}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding FullName}"

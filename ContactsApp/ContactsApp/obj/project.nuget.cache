@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "bS2FAY8Mjx4NQURt/Ah5LyQOtxSFxX9aQoowJbbmCGya/cmCYG60Q22IXq3d3V8LBoqwrA3Af3wivBIbsOuAbw==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Project Three\\ITM370-Project\\ContactsApp\\ContactsApp\\ContactsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\omgit\\.nuget\\packages\\xamarin.forms\\5.0.0.1874\\xamarin.forms.5.0.0.1874.nupkg.sha512"
+  ],
+  "logs": []
+}
