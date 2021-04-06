@@ -8,7 +8,15 @@ namespace ContactsApp.Model
     {
         public static IList<object> Contacts { get; set; }
 
-        static Contacter();
+        static ContactsData()
+        {
+            Contacted = new List<object>();
+            Contacted.Add(new object
+            {
+                Name = "",
+                
+            });
+        }
 
         
     }

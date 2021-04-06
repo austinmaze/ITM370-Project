@@ -11,7 +11,7 @@ namespace ContactsApp.Model
         public string ContactType { get; set; }
         public string FullName { get; set; }
 
-        public static Constructor()
+        public static ContactTypeGroup()
         {
 
         }
