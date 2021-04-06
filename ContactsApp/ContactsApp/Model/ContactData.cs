@@ -6,18 +6,18 @@ namespace ContactsApp.Model
 {
     public static class ContactData
     {
-        public static IList<object> Contacts { get; set; }
+        public static IList<Contact> Contacts { get; set; }
 
-        static ContactsData()
+        static ContactData()
         {
-            Contacted = new List<object>();
-            Contacted.Add(new object
+            Contacts = new List<Contact>();
+
+            Contacts.Add(new Contact
             {
-                Name = "",
-                
+                FirstName = "Ben",
+                LastName = "Hale",
+                ContactType = "Personal"
             });
         }
-
-        
     }
 }

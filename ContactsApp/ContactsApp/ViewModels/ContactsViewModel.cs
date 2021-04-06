@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ContactsApp.Model;
+using Xamarin.Forms;
 
 namespace ContactsApp.ViewModels
 {
-    class ContactsViewModel
+    class ContactsViewModel : ViewModelBase
     {
+        public IList<Contact> Contacts => ContactData.Contacts;
 
-        public static IList<object> Contacts;
     }
 }

@@ -9,15 +9,6 @@ namespace ContactsApp.Model
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string ContactType { get; set; }
-        public string FullName { get; set; }
-
-        public static ContactTypeGroup()
-        {
-
-        }
-        public void ConstructorTwo()
-        {
-
-        }
+        public string FullName { get; }
     }
 }
