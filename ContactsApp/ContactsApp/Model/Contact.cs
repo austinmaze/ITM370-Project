@@ -6,12 +6,12 @@ namespace ContactsApp.Model
 {
     public class Contact
     {
-        string FirstName = "";
-        string LastName = "";
-        string ContactType;
-        string FullName;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string ContactType { get; set; }
+        public string FullName { get; set; }
 
-        public void Constructor()
+        public static Constructor()
         {
 
         }

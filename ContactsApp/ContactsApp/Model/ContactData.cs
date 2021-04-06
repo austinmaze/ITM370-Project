@@ -4,9 +4,11 @@ using System.Text;
 
 namespace ContactsApp.Model
 {
-    class ContactData
+    public static class ContactData
     {
-        public static IList<object> Contacts;
+        public static IList<object> Contacts { get; set; }
+
+        static Contacter();
 
         
     }
